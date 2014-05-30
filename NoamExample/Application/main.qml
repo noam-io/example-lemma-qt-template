@@ -1,3 +1,11 @@
+//Copyright (c) 2014, IDEO
+
+/*
+    Simple example showing Noam connectivity in a QtQuick2 Application.
+    The app sends a noam message on topic 'sampleMessage' when the mouse is clicked.
+    The app registers to hear 'sampleMessage', and updates a text box on each receipt.
+    GuestName and desired RoomName are set in Application/Sources/main.cpp
+*/
 import QtQuick 2.2
 import QtQuick.Window 2.1
 import Lemma 1.0

@@ -1,3 +1,5 @@
+//Copyright (c) 2014, IDEO
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
@@ -11,6 +13,7 @@ int main(int argc, char *argv[])
 
         QQuickView view;
 
+        //instantiate lemma with GuestName and desired RoomName (blank string for Free Guest).
         Lemma * lemma = new Lemma(&view, "QtGuest", "");
         lemma->start();
 
