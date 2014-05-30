@@ -1,0 +1,3 @@
+[submodule "NoamExample/lemma-qt"]
+	path = NoamExample/lemma-qt
+	url = git@github.com:noam-io/lemma-qt.git
