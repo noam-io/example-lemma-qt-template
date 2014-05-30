@@ -5,8 +5,8 @@ Example Qt5 / QtQuick2 project using the Qt Lemma
 
 This utilizes the lemma-qt git repo as a submodule.
 run:  
-    git submodule init  
-    git submodule update  
+      git submodule init  
+      git submodule update  
 after cloning.
 
 Project is structured using the 'SubDir' project in Qt Creator.
