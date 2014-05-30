@@ -18,8 +18,7 @@
 *~
 *.swp
 *.DS_Store
-
-# QT Creator stuff
+*.pro.user*
 *.user
 *.user.*
 *.DS*
