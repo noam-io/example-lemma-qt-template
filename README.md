@@ -1,17 +1,15 @@
 example-lemma-qt-template
 =========================
 
-Example Qt5 / QtQuick2 project using the Qt Lemma
+This is an example [Qt5 / QtQuick2](http://qt-project.org/) project using the Qt Lemma.
 
-This utilizes the lemma-qt git repo as a submodule.
-run:
+This project utilizes the [lemma-qt](https://github.com/noam-io/lemma-qt) git repo as a submodule.
+after cloning this, run:
 
 `git submodule init`  
 `git submodule update`  
 
-after cloning.
-
-Project is structured using the 'SubDir' project in Qt Creator.
+The project is structured using the 'SubDir' project in Qt Creator.
 
 Open NoamExample.pro in Qt Creator to run the example.
 
